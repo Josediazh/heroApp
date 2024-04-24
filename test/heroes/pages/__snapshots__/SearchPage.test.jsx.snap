@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en el searchpage debe de mostrarse con valores con defecto 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="navbar navbar-expand-sm navbar-dark bg-dark p-2"
+      >
+        <a
+          class="navbar-brand"
+          href="/"
+        >
+          Asociaciones
+        </a>
+        <div
+          class="navbar-collapse"
+        >
+          <div
+            class="navbar-nav"
+          >
+            <a
+              class="nav-item nav-link "
+              href="/marvel"
+            >
+              Marvel
+            </a>
+            <a
+              class="nav-item nav-link "
+              href="/dc"
+            >
+              DC
+            </a>
+            <a
+              class="nav-item nav-link "
+              href="/search"
+            >
+              <i
+                class="bi bi-search"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end"
+        >
+          <ul
+            class="navbar-nav ml-auto"
+          >
+            <span
+              aria-label="username"
+              class="nav-item nav-link text-info"
+            >
+              jose luis
+            </span>
+            <button
+              class="nav-item nav-link info btn"
+            >
+              Logout
+            </button>
+          </ul>
+        </div>
+      </nav>
+      <h1>
+        Search Hero
+      </h1>
+      <hr />
+      <div
+        class="row p-5"
+      >
+        <div
+          class="col-4"
+        >
+          <h4>
+            Searching
+          </h4>
+          <hr />
+          <form
+            aria-label="form_search"
+          >
+            <input
+              aria-label="input_search"
+              autocomplete="on"
+              class="form-control"
+              list="heroes"
+              name="searchHero"
+              placeholder="Search a hero"
+              type="text"
+              value=""
+            />
+            <datalist
+              id="heroes"
+            >
+              <option
+                value="Batman"
+              >
+                Batman
+              </option>
+              <option
+                value="Superman"
+              >
+                Superman
+              </option>
+              <option
+                value="Flash"
+              >
+                Flash
+              </option>
+              <option
+                value="Green Lantern"
+              >
+                Green Lantern
+              </option>
+              <option
+                value="Green Arrow"
+              >
+                Green Arrow
+              </option>
+              <option
+                value="Wonder Woman"
+              >
+                Wonder Woman
+              </option>
+              <option
+                value="Martian Manhunter"
+              >
+                Martian Manhunter
+              </option>
+              <option
+                value="Robin/Nightwing"
+              >
+                Robin/Nightwing
+              </option>
+              <option
+                value="Blue Beetle"
+              >
+                Blue Beetle
+              </option>
+              <option
+                value="Black Canary"
+              >
+                Black Canary
+              </option>
+              <option
+                value="Spider Man"
+              >
+                Spider Man
+              </option>
+              <option
+                value="Captain America"
+              >
+                Captain America
+              </option>
+              <option
+                value="Iron Man"
+              >
+                Iron Man
+              </option>
+              <option
+                value="Thor"
+              >
+                Thor
+              </option>
+              <option
+                value="Hulk"
+              >
+                Hulk
+              </option>
+              <option
+                value="Wolverine"
+              >
+                Wolverine
+              </option>
+              <option
+                value="Daredevil"
+              >
+                Daredevil
+              </option>
+              <option
+                value="Hawkeye"
+              >
+                Hawkeye
+              </option>
+              <option
+                value="Cyclops"
+              >
+                Cyclops
+              </option>
+              <option
+                value="Silver Surfer"
+              >
+                Silver Surfer
+              </option>
+            </datalist>
+            <button
+              class="btn btn-outline-primary mt-2"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+        <div
+          class="col-8"
+        >
+          <h4
+            aria-label="results_number"
+          >
+            Results: 
+            0
+          </h4>
+          <hr />
+          <div
+            class="alert alert-primary animate__animated animate__fadeIn"
+          >
+            Search a hero
+          </div>
+          <div
+            aria-label="alert_error"
+            class="alert alert-danger animate__animated animate__fadeIn"
+            style="display: none;"
+          >
+            No hero with 
+            <b />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="navbar navbar-expand-sm navbar-dark bg-dark p-2"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        Asociaciones
+      </a>
+      <div
+        class="navbar-collapse"
+      >
+        <div
+          class="navbar-nav"
+        >
+          <a
+            class="nav-item nav-link "
+            href="/marvel"
+          >
+            Marvel
+          </a>
+          <a
+            class="nav-item nav-link "
+            href="/dc"
+          >
+            DC
+          </a>
+          <a
+            class="nav-item nav-link "
+            href="/search"
+          >
+            <i
+              class="bi bi-search"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end"
+      >
+        <ul
+          class="navbar-nav ml-auto"
+        >
+          <span
+            aria-label="username"
+            class="nav-item nav-link text-info"
+          >
+            jose luis
+          </span>
+          <button
+            class="nav-item nav-link info btn"
+          >
+            Logout
+          </button>
+        </ul>
+      </div>
+    </nav>
+    <h1>
+      Search Hero
+    </h1>
+    <hr />
+    <div
+      class="row p-5"
+    >
+      <div
+        class="col-4"
+      >
+        <h4>
+          Searching
+        </h4>
+        <hr />
+        <form
+          aria-label="form_search"
+        >
+          <input
+            aria-label="input_search"
+            autocomplete="on"
+            class="form-control"
+            list="heroes"
+            name="searchHero"
+            placeholder="Search a hero"
+            type="text"
+            value=""
+          />
+          <datalist
+            id="heroes"
+          >
+            <option
+              value="Batman"
+            >
+              Batman
+            </option>
+            <option
+              value="Superman"
+            >
+              Superman
+            </option>
+            <option
+              value="Flash"
+            >
+              Flash
+            </option>
+            <option
+              value="Green Lantern"
+            >
+              Green Lantern
+            </option>
+            <option
+              value="Green Arrow"
+            >
+              Green Arrow
+            </option>
+            <option
+              value="Wonder Woman"
+            >
+              Wonder Woman
+            </option>
+            <option
+              value="Martian Manhunter"
+            >
+              Martian Manhunter
+            </option>
+            <option
+              value="Robin/Nightwing"
+            >
+              Robin/Nightwing
+            </option>
+            <option
+              value="Blue Beetle"
+            >
+              Blue Beetle
+            </option>
+            <option
+              value="Black Canary"
+            >
+              Black Canary
+            </option>
+            <option
+              value="Spider Man"
+            >
+              Spider Man
+            </option>
+            <option
+              value="Captain America"
+            >
+              Captain America
+            </option>
+            <option
+              value="Iron Man"
+            >
+              Iron Man
+            </option>
+            <option
+              value="Thor"
+            >
+              Thor
+            </option>
+            <option
+              value="Hulk"
+            >
+              Hulk
+            </option>
+            <option
+              value="Wolverine"
+            >
+              Wolverine
+            </option>
+            <option
+              value="Daredevil"
+            >
+              Daredevil
+            </option>
+            <option
+              value="Hawkeye"
+            >
+              Hawkeye
+            </option>
+            <option
+              value="Cyclops"
+            >
+              Cyclops
+            </option>
+            <option
+              value="Silver Surfer"
+            >
+              Silver Surfer
+            </option>
+          </datalist>
+          <button
+            class="btn btn-outline-primary mt-2"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+      <div
+        class="col-8"
+      >
+        <h4
+          aria-label="results_number"
+        >
+          Results: 
+          0
+        </h4>
+        <hr />
+        <div
+          class="alert alert-primary animate__animated animate__fadeIn"
+        >
+          Search a hero
+        </div>
+        <div
+          aria-label="alert_error"
+          class="alert alert-danger animate__animated animate__fadeIn"
+          style="display: none;"
+        >
+          No hero with 
+          <b />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
